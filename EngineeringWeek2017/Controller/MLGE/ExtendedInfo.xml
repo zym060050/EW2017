@@ -12,6 +12,9 @@
   <AcfElementGuid Guid="58372817-e619-4596-b083-3d7a2287ac6f">
     <File>FB_CTL_ONE_MOTOR.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="5a8ec831-bc4e-44ad-b749-fa4ab25043a2">
+    <File>Sensors_Detection.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="606108e8-504f-47fd-807b-833dd29f2a5f">
     <File>FB_PAW_OPEN.AcfMlge</File>
   </AcfElementGuid>
