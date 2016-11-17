@@ -1,0 +1,73 @@
+(****** QuickLD compiler *******************************)
+(****** Copyright Rockwell Automation Canada, Ltd ******)
+(****** ST *********************************************)
+
+(*************** Rung **********************************)
+(**)
+(*Label :*)(**)
+__EDTB1 := TRUE ;
+IF __EDTB1 THEN
+(* FB call: MC_Power *)
+MC_Power_2(AXIS1, MCP_ENA, TRUE, FALSE, 0) ;
+MCP_STATUS := MC_Power_2.Status ;
+MC_ERROR := MC_Power_2.Error ;
+END_IF ;
+__MO_MC_POWER_1 := __EDTB1 ;
+
+(*************** Code for the end of Rung **************)
+
+
+(*************** Rung **********************************)
+(**)
+(*Label :*)(**)
+__EDTB2 := TRUE ;
+IF __EDTB2 THEN
+(* FB call: MC_Reset *)
+MC_Reset_2(AXIS1, MC_ERROR, 0) ;
+MCR_DONE := MC_Reset_2.Done ;
+MCR_BUSY := MC_Reset_2.Busy ;
+MCR_ERRTD := MC_Reset_2.ErrorID ;
+END_IF ;
+__MO_MC_RESET_1 := __EDTB2 ;
+
+(*************** Code for the end of Rung **************)
+
+
+(*************** Rung **********************************)
+(**)
+(*Label :*)(**)
+__EDTB3 := TRUE ;
+IF __EDTB3 THEN
+(* FB call: MC_MoveVelocity *)
+MC_MoveVelocity_2(AXIS1, MCP_STATUS, MCV_VELO, MCV_ACCL, MCV_DECCL, MCV_JERK, MCV_DIR, MCV_BUFFMODE) ;
+MC_ERROR := MC_MoveVelocity_2.Error ;
+END_IF ;
+__MO_MC_MOVEVELOCITY_1 := __EDTB3 ;
+
+(*************** Code for the end of Rung **************)
+
+
+(*************** Rung **********************************)
+(**)
+(*Label :*)(**)
+__EDTB4 := TRUE ;
+IF __EDTB4 THEN
+(* FB call: MC_Stop *)
+MC_Stop_2(AXIS1, STOP, 10.0, JERKD) ;
+END_IF ;
+__MO_MC_STOP_1 := __EDTB4 ;
+
+(*************** Code for the end of Rung **************)
+
+
+(*************** Code for the end of File **************)
+__GL __LG0000 ;
+
+
+
+(*************** Local Symbols table *******************)
+(* __EDTB1 *)
+(* __EDTB2 *)
+(* __EDTB3 *)
+(* __EDTB4 *)
+

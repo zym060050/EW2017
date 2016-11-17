@@ -1,0 +1,18 @@
+PROGRAM Prog1_Copy_1
+#info= QLD
+BOF
+
+
+(**)
+
+SOR  [0,1] (**) (**)  FB  [1,0] (*MC_MoveVelocity*) (*MC_MoveVelocity_2*) ( (*EN:EN*)(**) (**)  , (*AxisIn:Axis*)(*Axis1*) (**)  , (*Execute:Exec*)(*mcp_status*) (**)  , (*Velocity:Velo*)(*mcv_velo*) (**)  , (*Acceleration:Acce*)(*mcv_accl*) (**)  , (*Deceleration:Dece*)(*mcv_deccl*) (**)  , (*Jerk:Jerk*)(*mcv_jerk*) (**)  , (*DirectionIn:Dir*)(*mcv_dir*) (**)  , (*BufferMode:Buf*)(*mcv_buffMode*) (**) ; (*ENO:ENO*)(**) (**)  , (*Axis:Axis*)(**) (**)  , (*InVelocity:InVe*)(**) (**)  , (*Busy:Busy*)(**) (**)  , (*Active:Act*)(**) (**)  , (*Direction:Dir*)(**) (**)  , (*CommandAborted:CmdA*)(**) (**)  , (*Error:Err*)(*mc_error*) (**)  , (*ErrorID:ErID*)(**) (**) )
+EOR [4,0]
+
+
+(**)
+
+SOR  [0,11] (**) (**)
+EOR [1,0]
+EOF
+#end_info
+END_PROGRAM

@@ -1,0 +1,30 @@
+PROGRAM Prog1
+#info= QLD
+BOF
+
+
+(**)
+
+SOR  [0,1] (**) (**)  FB  [1,0] (*MC_Power*) (*MC_Power_2*) ( (*EN:EN*)(**) (**)  , (*AxisIn:*)(*Axis1*) (**)  , (*Enable:*)(*mcp_ena*) (**)  , (*Enable_Positive:*)(*TRUE*) (**)  , (*Enable_Negative:*)(*FALSE*) (**)  , (*__DTI_AxisIn:*)(*0*) (**) ; (*ENO:ENO*)(**) (**)  , (*Axis:*)(**) (**)  , (*Status:*)(*mcp_status*) (**)  , (*Busy:*)(**) (**)  , (*Active:*)(**) (**)  , (*Error:*)(*mc_error*) (**)  , (*ErrorID:*)(**) (**) )
+EOR [4,0]
+
+
+(**)
+
+SOR  [0,9] (**) (**)  FB  [1,0] (*MC_Reset*) (*MC_Reset_2*) ( (*EN:EN*)(**) (**)  , (*AxisIn:*)(*Axis1*) (**)  , (*Execute:*)(*mc_error*) (**)  , (*__DTI_AxisIn:*)(*0*) (**) ; (*ENO:ENO*)(**) (**)  , (*Axis:*)(**) (**)  , (*Done:*)(*mcr_done*) (**)  , (*Busy:*)(*mcr_busy*) (**)  , (*Error:*)(**) (**)  , (*ErrorID:*)(*mcr_errTd*) (**) )
+EOR [4,0]
+
+
+(**)
+
+SOR  [0,16] (**) (**)  FB  [1,0] (*MC_MoveVelocity*) (*MC_MoveVelocity_2*) ( (*EN:EN*)(**) (**)  , (*AxisIn:Axis*)(*Axis1*) (**)  , (*Execute:Exec*)(*mcp_status*) (**)  , (*Velocity:Velo*)(*mcv_velo*) (**)  , (*Acceleration:Acce*)(*mcv_accl*) (**)  , (*Deceleration:Dece*)(*mcv_deccl*) (**)  , (*Jerk:Jerk*)(*mcv_jerk*) (**)  , (*DirectionIn:Dir*)(*mcv_dir*) (**)  , (*BufferMode:Buf*)(*mcv_buffMode*) (**) ; (*ENO:ENO*)(**) (**)  , (*Axis:Axis*)(**) (**)  , (*InVelocity:InVe*)(**) (**)  , (*Busy:Busy*)(**) (**)  , (*Active:Act*)(**) (**)  , (*Direction:Dir*)(**) (**)  , (*CommandAborted:CmdA*)(**) (**)  , (*Error:Err*)(*mc_error*) (**)  , (*ErrorID:ErID*)(**) (**) )
+EOR [4,0]
+
+
+(**)
+
+SOR  [0,26] (**) (**)  FB  [1,0] (*MC_Stop*) (*MC_Stop_2*) ( (*EN:EN*)(**) (**)  , (*AxisIn:Axis*)(*Axis1*) (**)  , (*Execute:Exec*)(*Stop*) (**)  , (*Deceleration:Dece*)(*10.0*) (**)  , (*Jerk:Jerk*)(*JerkD*) (**) ; (*ENO:ENO*)(**) (**)  , (*Axis:Axis*)(**) (**)  , (*Done:Done*)(**) (**)  , (*Busy:Busy*)(**) (**)  , (*Active:Act*)(**) (**)  , (*CommandAborted:CmdA*)(**) (**)  , (*Error:Err*)(**) (**)  , (*ErrorID:ErID*)(**) (**) )
+EOR [4,0]
+EOF
+#end_info
+END_PROGRAM
