@@ -2759,13 +2759,13 @@ Controller.Micro850.Micro850.Sensors_Detection.Count
 Controller.Micro850.Micro850.Sensors_Detection.F_TRIG_1.CLK	
 Controller.Micro850.Micro850.Sensors_Detection.F_TRIG_1.Fedge	
 Controller.Micro850.Micro850.Sensors_Detection.F_TRIG_1.Q	
+Controller.Micro850.Micro850.Sensors_Detection.LOCAL_ET_TIME	
 Controller.Micro850.Micro850.Sensors_Detection.LOCAL_RESET_TIMER_1	
 Controller.Micro850.Micro850.Sensors_Detection.LOCAL_SENSOR_DETECTED[1]	
 Controller.Micro850.Micro850.Sensors_Detection.LOCAL_SENSOR_DETECTED[2]	
 Controller.Micro850.Micro850.Sensors_Detection.LOCAL_SENSOR_DETECTED[3]	
 Controller.Micro850.Micro850.Sensors_Detection.LOCAL_SENSOR_DETECTED[4]	
 Controller.Micro850.Micro850.Sensors_Detection.LOCAL_SPEED	
-Controller.Micro850.Micro850.Sensors_Detection.NewVariable	
 Controller.Micro850.Micro850.Sensors_Detection.RTO_1.ET	
 Controller.Micro850.Micro850.Sensors_Detection.RTO_1.IFEDGE	
 Controller.Micro850.Micro850.Sensors_Detection.RTO_1.IN	
