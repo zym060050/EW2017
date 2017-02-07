@@ -3,6 +3,9 @@
   <AcfElementGuid Guid="323fe99e-f318-4834-8d10-7c18a40778df">
     <File>FB_CTL_MOTORS.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="51847170-c819-4f82-ac6f-f7781e3417aa">
+    <File>Arm_Handling.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="62eb6419-b220-4c0b-9ffc-3a214e13e5e6">
     <File>FB_CTL_ONE_MOTOR.AcfMlge</File>
   </AcfElementGuid>
