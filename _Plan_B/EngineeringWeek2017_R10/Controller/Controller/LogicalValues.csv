@@ -86,6 +86,7 @@ Controller.Micro850.Micro850.Colour_Queue[2]
 Controller.Micro850.Micro850.Colour_Queue[3]	
 Controller.Micro850.Micro850.Colour_Queue[4]	
 Controller.Micro850.Micro850.Colour_Queue[5]	
+Controller.Micro850.Micro850.Dist_Sensor_Arm	
 Controller.Micro850.Micro850.Exec_FFL	
 Controller.Micro850.Micro850.Exec_FFU	
 Controller.Micro850.Micro850.FIFO_Load.__ADI_FIFO	
