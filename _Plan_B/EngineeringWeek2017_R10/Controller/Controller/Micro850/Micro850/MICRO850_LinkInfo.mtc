@@ -1,10 +1,10 @@
 [MEMORY]
-Offset0=0x29A0
-Offset1=0x31A0
-Offset2=0x31A0
-Offset3=0x31A0
-Memory Usage Estimate(Code)=0x26C4
-Memory Usage Estimate(Data)=0x563C
+Offset0=0x29A4
+Offset1=0x31A4
+Offset2=0x31A4
+Offset3=0x31A4
+Memory Usage Estimate(Code)=0x2704
+Memory Usage Estimate(Data)=0x564C
 Memory Usage Estimate(Retain)=0x0
-Memory Usage Estimate(Temporary variables)=0x498
+Memory Usage Estimate(Temporary variables)=0x4A4
 Offset4=0x414
