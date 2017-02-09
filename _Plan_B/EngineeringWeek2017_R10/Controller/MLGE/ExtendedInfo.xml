@@ -18,6 +18,9 @@
   <AcfElementGuid Guid="bdd401a2-a722-4716-8545-d8c6120b6ecd">
     <File>FB_PAW_CLOSE.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="ca85bbf1-2ec1-448d-824e-46b122b0a8d1">
+    <File>Sensors_Detection_Old.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="d62bc410-4e63-4931-9c43-12d55a934db9">
     <File>Sensors_Detection.AcfMlge</File>
   </AcfElementGuid>
