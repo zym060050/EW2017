@@ -87,6 +87,8 @@ Controller.Micro850.Micro850.Colour_Queue[3]
 Controller.Micro850.Micro850.Colour_Queue[4]	
 Controller.Micro850.Micro850.Colour_Queue[5]	
 Controller.Micro850.Micro850.Dist_Sensor_Arm	
+Controller.Micro850.Micro850.Dist_Sensor1_Arm	
+Controller.Micro850.Micro850.Dist_Sensor3_Arm	
 Controller.Micro850.Micro850.Dist_Speed_Detection	
 Controller.Micro850.Micro850.Exec_FFL	
 Controller.Micro850.Micro850.Exec_FFU	
@@ -3002,6 +3004,9 @@ Controller.Micro850.Micro850.Sensors_Detection_Old.LOCAL_SPEED
 Controller.Micro850.Micro850.Sensors_Detection_Old.R_TRIG_1.CLK	
 Controller.Micro850.Micro850.Sensors_Detection_Old.R_TRIG_1.Q	
 Controller.Micro850.Micro850.Sensors_Detection_Old.R_TRIG_1.Redge	
+Controller.Micro850.Micro850.Sensors_Detection_Old.R_TRIG_2.CLK	
+Controller.Micro850.Micro850.Sensors_Detection_Old.R_TRIG_2.Q	
+Controller.Micro850.Micro850.Sensors_Detection_Old.R_TRIG_2.Redge	
 Controller.Micro850.Micro850.Sensors_Detection_Old.RTO_1.ET	
 Controller.Micro850.Micro850.Sensors_Detection_Old.RTO_1.IFEDGE	
 Controller.Micro850.Micro850.Sensors_Detection_Old.RTO_1.IN	
@@ -3010,6 +3015,7 @@ Controller.Micro850.Micro850.Sensors_Detection_Old.RTO_1.PDATE
 Controller.Micro850.Micro850.Sensors_Detection_Old.RTO_1.PT	
 Controller.Micro850.Micro850.Sensors_Detection_Old.RTO_1.Q	
 Controller.Micro850.Micro850.Sensors_Detection_Old.RTO_1.RST	
+Controller.Micro850.Micro850.Sensors_Detection_Old.Sensor1_Triggered	
 Controller.Micro850.Micro850.Sensors_Detection_Old.Start_Timer	
 Controller.Micro850.Micro850.Sensors_Detection_Old.Start_Timer2	
 Controller.Micro850.Micro850.Sensors_Detection_Old.Timer[0].ET	
