@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectElements>
+  <AcfElementGuid Guid="323fe99e-f318-4834-8d10-7c18a40778df">
+    <File>FB_CTL_MOTORS.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="51847170-c819-4f82-ac6f-f7781e3417aa">
+    <File>Arm_Handling.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="62eb6419-b220-4c0b-9ffc-3a214e13e5e6">
+    <File>FB_CTL_ONE_MOTOR.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="69f479a4-bda4-4118-8375-a3c07b98a354">
+    <File>FB_PAW_OPEN.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="a12bd308-020e-421b-a745-118685d8932a">
+    <File>Color_Detection.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="bdd401a2-a722-4716-8545-d8c6120b6ecd">
+    <File>FB_PAW_CLOSE.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="ca85bbf1-2ec1-448d-824e-46b122b0a8d1">
+    <File>Sensors_Detection_Old.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="d62bc410-4e63-4931-9c43-12d55a934db9">
+    <File>Sensors_Detection.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="e1fb3ae0-8d4a-44bc-866c-60a6f2b91291">
+    <File>Test.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="f55a3172-1d4f-4f94-b48b-81a3c0735c7b">
+    <File>FB_CTL_MOTORS_EXCEPT_PAW.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="fd93059b-1218-4778-b250-ae47662c2de2">
+    <File>Pick_Drop_Loop.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="fef7970f-db41-4efa-a19c-5af259bc20e8">
+    <File>FB_CTL_ALL_MOTORS.AcfMlge</File>
+  </AcfElementGuid>
+</ProjectElements>
