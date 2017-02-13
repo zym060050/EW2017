@@ -12,4 +12,13 @@
   <Variable>
     <FullName>Controller.Micro850.Micro850.Colour_Queue</FullName>
   </Variable>
+  <Variable>
+    <FullName>Controller.Micro850.Micro850.G_COLOR_DETECTED</FullName>
+  </Variable>
+  <Variable>
+    <FullName>Controller.Micro850.Micro850.G_CONV_SPEED</FullName>
+  </Variable>
+  <Variable>
+    <FullName>Controller.Micro850.Micro850.POS_SENSOR_DETECTED</FullName>
+  </Variable>
 </SpyListVars_0>
