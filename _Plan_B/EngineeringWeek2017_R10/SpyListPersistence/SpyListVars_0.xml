@@ -7,9 +7,6 @@
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>Controller.Micro850.Micro850.Sensors_Detection.LOCAL_SPEED</FullName>
-  </Variable>
-  <Variable>
     <FullName>Controller.Micro850.Micro850.Colour_Queue</FullName>
   </Variable>
   <Variable>
