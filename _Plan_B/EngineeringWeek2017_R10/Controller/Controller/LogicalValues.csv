@@ -2234,6 +2234,13 @@ Controller.Micro850.Micro850.Pick_Drop_Loop.TON_1.Pdate
 Controller.Micro850.Micro850.Pick_Drop_Loop.TON_1.PT	
 Controller.Micro850.Micro850.Pick_Drop_Loop.TON_1.Q	
 Controller.Micro850.Micro850.Pick_Drop_Loop.TON_1.Redge	
+Controller.Micro850.Micro850.Pick_Drop_Loop.TuneBin	
+Controller.Micro850.Micro850.Pick_Drop_Loop.TunePos[1]	
+Controller.Micro850.Micro850.Pick_Drop_Loop.TunePos[2]	
+Controller.Micro850.Micro850.Pick_Drop_Loop.TunePos[3]	
+Controller.Micro850.Micro850.Pick_Drop_Loop.TunePos[4]	
+Controller.Micro850.Micro850.Pick_Drop_Loop.TunePos[5]	
+Controller.Micro850.Micro850.Pick_Drop_Loop.TunePos[6]	
 Controller.Micro850.Micro850.POS_SENSOR_DETECTED[1]	
 Controller.Micro850.Micro850.POS_SENSOR_DETECTED[2]	
 Controller.Micro850.Micro850.POS_SENSOR_DETECTED[3]	
