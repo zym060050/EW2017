@@ -2056,6 +2056,7 @@ Controller.Micro850.Micro850.Pick_Drop_Loop.FB_CTL_ALL_MOTORS_3.LOCAL_FB_MOTOR_P
 Controller.Micro850.Micro850.Pick_Drop_Loop.FB_CTL_ALL_MOTORS_3.LOCAL_FB_MOTOR_POS_Array[5].POS	
 Controller.Micro850.Micro850.Pick_Drop_Loop.FB_CTL_ALL_MOTORS_3.LOCAL_FB_MOTOR_POS_Array[6].ID	
 Controller.Micro850.Micro850.Pick_Drop_Loop.FB_CTL_ALL_MOTORS_3.LOCAL_FB_MOTOR_POS_Array[6].POS	
+Controller.Micro850.Micro850.Pick_Drop_Loop.LOCAL_Color	
 Controller.Micro850.Micro850.Pick_Drop_Loop.Local_Homing_Time	
 Controller.Micro850.Micro850.Pick_Drop_Loop.LOCAL_I	
 Controller.Micro850.Micro850.Pick_Drop_Loop.LOCAL_POS_Array_BefFeb16[1,1]	
